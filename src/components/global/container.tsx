@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { cn } from "@/lib/utils";
 interface Props {
   children: React.ReactNode;
-  className: string;
+  className?: string;
   delay?: number;
   reverse?: boolean;
 }
