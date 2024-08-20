@@ -1,5 +1,5 @@
 import Icons from "./global/icons";
-
 import Navbar from "./navigation/navbar";
-
-export { Icons, Navbar };
+import Container from "./global/container";
+import Wrapper from "./global/container";
+export { Icons, Navbar, Container, Wrapper };
